@@ -16,7 +16,7 @@
   The core implementation of the HamGNN-Q model. You can run the training or prediction pipeline by executing:
   ```bash
   python HamGNN/main.py
-- `/Openmx/` and `Honpas`
+- `/Openmx/` and `/Honpas/`
   - Converting structures from POSCAR format to OpenMX(`.dat`) and Honpas (`.fdf`) input formats
   - Constructing graph representations from OpenMX or Honpas output files
 
