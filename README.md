@@ -19,13 +19,23 @@
 
 We provide example calculation setups for charged defect systems using three different DFT software packages:
 ### OpenMX
-
+1. **Convert to Siesta Format:** Convert the structure to be predicted into `.fdf` format using poscar2siesta.py.
+2. **Run HONPAS:** Generate the overlap data (`overlap.HSX`) for the structure.
+3. **Generate Graph Data:** Use the `predict_data_gen.py` script to package the data into a `graph_data.npz` file for prediction.
+   
 ### Honpas
+1. **Convert to Siesta Format:** Convert the structure to be predicted into `.fdf` format using poscar2siesta.py.
+2. **Run HONPAS:** Generate the overlap data (`overlap.HSX`) for the structure.
+3. **Generate Graph Data:** Use the `predict_data_gen_siesta.py` script to package the data into a `graph_data.npz` file for prediction.
 
 ### ABACUS
 
 ## References
-1. Y. Ma, et al.Transferable machine learning approach for predicting electronic structures of charged defects. (Feature Article)[https://doi.org/10.1063/5.0242683](https://doi.org/10.1063/5.0242683)
+1. Y. Ma, et al.Transferable machine learning approach for predicting electronic structures of charged defects. (Feature Article) [https://doi.org/10.1063/5.0242683](https://doi.org/10.1063/5.0242683)
+
+## Code contributors:
++ Yuxing Ma (Fudan University)
++ Yang Zhong (Fudan University)
 
 
 
