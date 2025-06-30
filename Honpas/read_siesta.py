@@ -1,10 +1,3 @@
-'''
-Author: Changwei Zhang 
-Date: 2023-05-18 17:07:53 
-Last Modified by:   Changwei Zhang 
-Last Modified time: 2023-05-18 17:07:53 
-'''
-
 import numpy as np
 from numba import njit
 from copy import deepcopy

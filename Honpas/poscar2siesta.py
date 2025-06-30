@@ -1,10 +1,3 @@
-'''
-Author: Changwei Zhang 
-Date: 2023-05-23 22:38:22 
-Last Modified by:   Changwei Zhang 
-Last Modified time: 2023-05-23 22:38:22 
-'''
-
 from pymatgen.core.structure import Structure
 from pymatgen.core.periodic_table import Element
 from pymatgen.io.ase import AseAtomsAdaptor

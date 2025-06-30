@@ -1,12 +1,3 @@
-'''
-Descripttion: The scripts used to generate the input file graph_data.npz for HamNet.
-version: 0.1
-Author: Yang Zhong & Changwei Zhang
-Date: 2023-05-18 17:08:30 
-Last Modified by:   Changwei Zhang 
-Last Modified time: 2023-05-18 17:08:30 
-'''
-
 import numpy as np
 import os
 import sys

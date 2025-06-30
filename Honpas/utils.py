@@ -1,12 +1,3 @@
-'''
-Descripttion: 
-version: 
-Author: Yang Zhong
-Date: 2023-01-16 13:00:43
-LastEditors: Yang Zhong
-LastEditTime: 2023-01-16 14:53:37
-'''
-
 from ase import Atoms
 import numpy as np
 from ctypes import Union
