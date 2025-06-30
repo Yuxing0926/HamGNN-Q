@@ -13,20 +13,20 @@
 
 ## Dataset building
 1. **Generate Structure Files:** Create structure files via molecular dynamics or random perturbation.
-2. **Self-Consistent Calculation：** Perform self-consistent field (SCF) calculations to obtain the converged Hamiltonian matrix corresponding to the relaxed charge density.
+2. **Self-Consistent Calculation:** Perform self-consistent field (SCF) calculations to obtain the converged Hamiltonian matrix corresponding to the relaxed charge density.
 3. **Processing with postprocess script:** Generate the overlap file, which contains the Hamiltonian matrix H0, independent of the self-consistent charge density.
 4. **Graph generation:** Use `graph_data_gen.py` to convert the structure files into graph representations suitable for input into the graph neural network.
 
 We provide example calculation setups for charged defect systems using three different DFT software packages:
 ### OpenMX
-1. **Convert to Siesta Format:** Convert the structure to be predicted into `.fdf` format using poscar2siesta.py.
-2. **Run HONPAS:** Generate the overlap data (`overlap.HSX`) for the structure.
-3. **Generate Graph Data:** Use the `predict_data_gen.py` script to package the data into a `graph_data.npz` file for prediction.
+1. **Convert to Openmx Format:** Convert the structure to be predicted into `.dat` format using poscar2openmx.py.
+2. **Run HONPAS:** Generate the overlap data (`overlap.scfout`) for the structure.
+3. **Generate Graph Data:** Use the `predict_data_gen.py` script to package the data into a `graph_data.npz` file for training or prediction.
    
 ### Honpas
 1. **Convert to Siesta Format:** Convert the structure to be predicted into `.fdf` format using poscar2siesta.py.
 2. **Run HONPAS:** Generate the overlap data (`overlap.HSX`) for the structure.
-3. **Generate Graph Data:** Use the `predict_data_gen_siesta.py` script to package the data into a `graph_data.npz` file for prediction.
+3. **Generate Graph Data:** Use the `predict_data_gen_siesta.py` script to package the data into a `graph_data.npz` file for training or prediction.
 
 ### ABACUS
 
