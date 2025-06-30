@@ -11,6 +11,15 @@
   - Electronic property analysis
   - Defect state localization studies
 
+## Directory Overview
+- `/HamGNN/`  
+  The core implementation of the HamGNN-Q model. You can run the training or prediction pipeline by executing:
+  ```bash
+  python HamGNN/main.py
+- `/Openmx/` and `Honpas`
+  - Converting structures from POSCAR format to OpenMX(`.dat`) and Honpas (`.fdf`) input formats
+  - Constructing graph representations from OpenMX or Honpas output files
+
 ## Dataset building
 1. **Generate Structure Files:** Create structure files via molecular dynamics or random perturbation.
 2. **Self-Consistent Calculation:** Perform self-consistent field (SCF) calculations to obtain the converged Hamiltonian matrix corresponding to the relaxed charge density.
