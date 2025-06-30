@@ -38,6 +38,7 @@ We provide example calculation setups for charged defect systems using three dif
 3. **Generate Graph Data:** Use the `predict_data_gen_siesta.py` script to package the data into a `graph_data.npz` file for training or prediction.
 
 ### ABACUS
+Support for ABACUS coming soon. 
 
 ## References
 1. Y. Ma, et al.Transferable machine learning approach for predicting electronic structures of charged defects. (Feature Article) [https://doi.org/10.1063/5.0242683](https://doi.org/10.1063/5.0242683)
